@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Ganti warna latar belakang body */
+}
+
+header {
+    background-color: #70a7cf;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    margin-right: 820px;
+    color: #fff;
+}
+
+header p{
+    margin-right: 800px;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.header-text {
+    text-align: center;
+    margin-left: 50px;
+}
+
+nav {
+    background-color: #06062d; /* Ganti warna latar belakang navbar */
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px; /* Border radius untuk tombol di navbar */
+}
+
+a:hover {
+    background-color: #555; /* Warna latar belakang ketika hover */
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px; /* Border radius untuk menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out; /* Efek animasi */
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Efek zoom in ketika hover */
+}
+
+.menu-item-img {
+    max-width: 100%;
+    border-radius: 10px; /* Border radius untuk gambar menu */
+}
+
+.menu-item-details {
+    margin-top: 15px;
+}
+
+.order-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #70a7cf;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
